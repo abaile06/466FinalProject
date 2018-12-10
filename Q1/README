@@ -3,8 +3,8 @@ __________________________________
 
 To run cross validation using C45 or Random Forest, run the following commands below using python 2:
 
-/usr/bin/python Evaluate weatherDataAndNoOfCrimesData.csv weatherDataAndNoOfCrimesDataDomain.xml 10 0    (for 10-fold cross validation using C45)
-/usr/bin/python Evaluate weatherDataAndNoOfCrimesData.csv weatherDataAndNoOfCrimesDataDomain.xml 10 1    (for 10-fold cross validation using Random Forest)
+python2 Evaluate weatherDataAndNoOfCrimesData.csv weatherDataAndNoOfCrimesDataDomain.xml 10 0    (for 10-fold cross validation using C45)
+python2 Evaluate weatherDataAndNoOfCrimesData.csv weatherDataAndNoOfCrimesDataDomain.xml 10 1    (for 10-fold cross validation using Random Forest)
 
 arg[1] = dataset csv file
 arg[2] = domain xml file
