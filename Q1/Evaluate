@@ -1,0 +1,13 @@
+import Validation
+import sys
+
+restrictionsFileName = None
+if len(sys.argv) == 6: 
+   restrictionsFileName = sys.argv[5]
+
+useRandomForest = False
+if len(sys.argv) >= 5 and int(sys.argv[4]) == 1:
+   useRandomForest = True
+
+
+Validation.runEvaluate(sys.argv[1], sys.argv[2], int(sys.argv[3]), restrictionsFileName, useRandomForest)

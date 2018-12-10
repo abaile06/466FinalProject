@@ -1,0 +1,7 @@
+import InduceC45
+import sys
+
+restrictionsFileName = None
+if len(sys.argv) == 4:
+   restrictionsFileName = sys.argv[3]
+InduceC45.runInduceC45(sys.argv[1], sys.argv[2], restrictionsFileName)

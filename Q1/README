@@ -1,0 +1,24 @@
+
+__________________________________
+
+To run cross validation using C45 or Random Forest, run the following commands below using python 2:
+
+/usr/bin/python Evaluate weatherDataAndNoOfCrimesData.csv weatherDataAndNoOfCrimesDataDomain.xml 10 0    (for 10-fold cross validation using C45)
+/usr/bin/python Evaluate weatherDataAndNoOfCrimesData.csv weatherDataAndNoOfCrimesDataDomain.xml 10 1    (for 10-fold cross validation using Random Forest)
+
+arg[1] = dataset csv file
+arg[2] = domain xml file
+arg[3] = no of folds
+arg[4] = 1 to use random forest, 0 to use c45
+arg[5] OPTIONAL = restrictions file name if using c45 only 
+
+
+__________________________________
+
+To run KNN, run the following command below using python 3:
+
+python3 knn.py weatherDataAndNoOfCrimesData.csv 30      (for KNN using a k value of 30)
+
+arg[2] = k-value
+
+__________________________________
