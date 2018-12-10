@@ -1,0 +1,17 @@
+CSC 466
+Final Project
+12/10/18
+Hudson, Alex, Joe, Delaney
+
+Datasets are taken from Kaggle, links are provided in the report.
+
+Instructions for Running Files
+------------------------------
+
+The questions are organized by folder, so to fun the files, go to a Folder (e.g. Q1) and run the code within.
+
+Some questions are answered via Pyton files (.py) whereas some are answered in Jupyter Notebooks (.ipynb)
+  > All python files can be run: $ python *.py, with the exception of Q1 which has a specific README to run
+  > Jupyter Notebooks can simply be run cell by cell from top to bottom.
+
+
